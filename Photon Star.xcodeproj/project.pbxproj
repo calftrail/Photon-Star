@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D806C9C71120E88500A3DCBE /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = D806C9C61120E88500A3DCBE /* dsa_pub.pem */; };
+		D806CA051120EA6300A3DCBE /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D806CA041120EA6300A3DCBE /* Sparkle.framework */; };
+		D806CA0E1120EA6700A3DCBE /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D806CA041120EA6300A3DCBE /* Sparkle.framework */; };
+		D8096F5F10FBF41D00790F22 /* CALayer+TLExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D8096F5E10FBF41D00790F22 /* CALayer+TLExtensions.m */; };
+		D81772B810CE025C00A957E7 /* CGContext+TLExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = D81772B710CE025C00A957E7 /* CGContext+TLExtensions.c */; };
+		D82540081106BE530011F2DE /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82540071106BE530011F2DE /* MenuController.m */; };
+		D82D116F10F7DA1200D9B6C0 /* CGImage+TLExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = D82D116E10F7DA1200D9B6C0 /* CGImage+TLExtensions.c */; };
+		D82D11A710F7DE9900D9B6C0 /* CFType+TLExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D82D11A610F7DE9900D9B6C0 /* CFType+TLExtensions.m */; };
+		D83B5F3910CF529400185D1F /* RateSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D83B5F3810CF529400185D1F /* RateSet.m */; };
+		D8435A8F10D9BA7300D24CD1 /* AlbumController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8435A8E10D9BA7300D24CD1 /* AlbumController.m */; };
+		D86090EB10A6031400EB15FB /* FlowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D86090EA10A6031400EB15FB /* FlowController.m */; };
+		D86090F110A604DB00EB15FB /* Cinematroller.m in Sources */ = {isa = PBXBuildFile; fileRef = D86090F010A604DB00EB15FB /* Cinematroller.m */; };
+		D86FD97A10E6C0A100F0D578 /* TLInvocationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D86FD97910E6C0A100F0D578 /* TLInvocationOperation.m */; };
+		D86FDA7210E6D97D00F0D578 /* RateItem.applescript in Sources */ = {isa = PBXBuildFile; fileRef = D86FDA7110E6D97D00F0D578 /* RateItem.applescript */; };
+		D87872B2112B19F500A7EF99 /* Help in Resources */ = {isa = PBXBuildFile; fileRef = D87872A0112B19F500A7EF99 /* Help */; };
+		D879029510FD36D100CA4E31 /* CAAnimation+TLExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D879029410FD36D100CA4E31 /* CAAnimation+TLExtensions.m */; };
+		D87904EF10FD512700CA4E31 /* ItemDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = D87904EE10FD512700CA4E31 /* ItemDisplay.m */; };
+		D888F94C111A307400134F72 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D888F94B111A307400134F72 /* AudioToolbox.framework */; };
+		D888F978111A336B00134F72 /* TLSFX.m in Sources */ = {isa = PBXBuildFile; fileRef = D888F977111A336B00134F72 /* TLSFX.m */; };
+		D89BAAEB10A62ECC00A36488 /* NSURL+TLExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D89BAAEA10A62ECC00A36488 /* NSURL+TLExtensions.m */; };
+		D8BA1E151108E44100D26FF1 /* RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BA1E141108E44100D26FF1 /* RootController.m */; };
+		D8BA1F411108FEF500D26FF1 /* AlbumInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BA1F401108FEF500D26FF1 /* AlbumInfo.m */; };
+		D8CC22BB109772A2008BD2DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CC22BA109772A2008BD2DD /* AppDelegate.m */; };
+		D8CC22CA10978928008BD2DD /* HostView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CC22C910978928008BD2DD /* HostView.m */; };
+		D8CC22FE1097AC89008BD2DD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CC22FD1097AC89008BD2DD /* QuartzCore.framework */; };
+		D8CC24281097C1A1008BD2DD /* NSObject+TLKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CC24271097C1A1008BD2DD /* NSObject+TLKVO.m */; };
+		D8D282D010A64BB100FE264B /* NSColor+TLExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D282CF10A64BB100FE264B /* NSColor+TLExtensions.m */; };
+		D8DED33410F90995001F42B4 /* InterflowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DED33310F90995001F42B4 /* InterflowController.m */; };
+		D8E39908111DF9FA006FFB01 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D8E39907111DF9FA006FFB01 /* Credits.rtf */; };
+		D8E3991E111DFD48006FFB01 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58150DA1D0A300B32029 /* MainMenu.xib */; };
+		D8E39935111DFF7A006FFB01 /* Acknowledgments.html in Resources */ = {isa = PBXBuildFile; fileRef = D8E39934111DFF7A006FFB01 /* Acknowledgments.html */; };
+		D8E852651123AC4900E18BE8 /* PhotonStar.icns in Resources */ = {isa = PBXBuildFile; fileRef = D8E852641123AC4900E18BE8 /* PhotonStar.icns */; };
+		D8EE714310F6E47C002DD48D /* HIDRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE714210F6E47C002DD48D /* HIDRemote.m */; };
+		D8EE715C10F6E4E6002DD48D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EE715B10F6E4E6002DD48D /* IOKit.framework */; };
+		D8FBDED810D2FCA50033AB60 /* StageController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FBDED710D2FCA50033AB60 /* StageController.m */; };
+		D8FD8859112D059700AA552B /* clank.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D8FD8853112D059700AA552B /* clank.aiff */; };
+		D8FD885A112D059700AA552B /* click.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D8FD8854112D059700AA552B /* click.aiff */; };
+		D8FD885B112D059700AA552B /* clunk.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D8FD8855112D059700AA552B /* clunk.aiff */; };
+		D8FD885C112D059700AA552B /* down.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D8FD8856112D059700AA552B /* down.aiff */; };
+		D8FD885D112D059700AA552B /* meh.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D8FD8857112D059700AA552B /* meh.aiff */; };
+		D8FD885E112D059700AA552B /* up.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D8FD8858112D059700AA552B /* up.aiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D806C9D31120EA0B00A3DCBE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D806CA0E1120EA6700A3DCBE /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* PhotonStar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotonStar_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Photon Star.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photon Star.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D806C9C61120E88500A3DCBE /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		D806CA041120EA6300A3DCBE /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		D8096F5D10FBF41D00790F22 /* CALayer+TLExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+TLExtensions.h"; sourceTree = "<group>"; };
+		D8096F5E10FBF41D00790F22 /* CALayer+TLExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+TLExtensions.m"; sourceTree = "<group>"; };
+		D817727310CDFE6300A957E7 /* CFType+TLExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CFType+TLExtensions.h"; sourceTree = "<group>"; };
+		D81772B610CE025C00A957E7 /* CGContext+TLExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGContext+TLExtensions.h"; sourceTree = "<group>"; };
+		D81772B710CE025C00A957E7 /* CGContext+TLExtensions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "CGContext+TLExtensions.c"; sourceTree = "<group>"; };
+		D82540061106BE530011F2DE /* MenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuController.h; sourceTree = "<group>"; };
+		D82540071106BE530011F2DE /* MenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuController.m; sourceTree = "<group>"; };
+		D82D116D10F7DA1200D9B6C0 /* CGImage+TLExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGImage+TLExtensions.h"; sourceTree = "<group>"; };
+		D82D116E10F7DA1200D9B6C0 /* CGImage+TLExtensions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "CGImage+TLExtensions.c"; sourceTree = "<group>"; };
+		D82D11A610F7DE9900D9B6C0 /* CFType+TLExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CFType+TLExtensions.m"; sourceTree = "<group>"; };
+		D83B5F3710CF529400185D1F /* RateSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateSet.h; sourceTree = "<group>"; };
+		D83B5F3810CF529400185D1F /* RateSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateSet.m; sourceTree = "<group>"; };
+		D8435A8D10D9BA7300D24CD1 /* AlbumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumController.h; sourceTree = "<group>"; };
+		D8435A8E10D9BA7300D24CD1 /* AlbumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumController.m; sourceTree = "<group>"; };
+		D86090E910A6031400EB15FB /* FlowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowController.h; sourceTree = "<group>"; };
+		D86090EA10A6031400EB15FB /* FlowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowController.m; sourceTree = "<group>"; };
+		D86090EF10A604DB00EB15FB /* Cinematroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cinematroller.h; sourceTree = "<group>"; };
+		D86090F010A604DB00EB15FB /* Cinematroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cinematroller.m; sourceTree = "<group>"; };
+		D86FD97810E6C0A100F0D578 /* TLInvocationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLInvocationOperation.h; sourceTree = "<group>"; };
+		D86FD97910E6C0A100F0D578 /* TLInvocationOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLInvocationOperation.m; sourceTree = "<group>"; };
+		D86FDA7110E6D97D00F0D578 /* RateItem.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = RateItem.applescript; sourceTree = "<group>"; };
+		D87872A0112B19F500A7EF99 /* Help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Help; sourceTree = "<group>"; };
+		D879029310FD36D100CA4E31 /* CAAnimation+TLExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+TLExtensions.h"; sourceTree = "<group>"; };
+		D879029410FD36D100CA4E31 /* CAAnimation+TLExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+TLExtensions.m"; sourceTree = "<group>"; };
+		D87904ED10FD512700CA4E31 /* ItemDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDisplay.h; sourceTree = "<group>"; };
+		D87904EE10FD512700CA4E31 /* ItemDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDisplay.m; sourceTree = "<group>"; };
+		D888F94B111A307400134F72 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		D888F976111A336B00134F72 /* TLSFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSFX.h; sourceTree = "<group>"; };
+		D888F977111A336B00134F72 /* TLSFX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSFX.m; sourceTree = "<group>"; };
+		D89BAAE910A62ECC00A36488 /* NSURL+TLExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+TLExtensions.h"; sourceTree = "<group>"; };
+		D89BAAEA10A62ECC00A36488 /* NSURL+TLExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+TLExtensions.m"; sourceTree = "<group>"; };
+		D8BA1E131108E44100D26FF1 /* RootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootController.h; sourceTree = "<group>"; };
+		D8BA1E141108E44100D26FF1 /* RootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootController.m; sourceTree = "<group>"; };
+		D8BA1F3F1108FEF500D26FF1 /* AlbumInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumInfo.h; sourceTree = "<group>"; };
+		D8BA1F401108FEF500D26FF1 /* AlbumInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumInfo.m; sourceTree = "<group>"; };
+		D8BA21CD110931DB00D26FF1 /* PowerFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerFix.h; sourceTree = "<group>"; };
+		D8CC22B9109772A2008BD2DD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8CC22BA109772A2008BD2DD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8CC22C810978928008BD2DD /* HostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostView.h; sourceTree = "<group>"; };
+		D8CC22C910978928008BD2DD /* HostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostView.m; sourceTree = "<group>"; };
+		D8CC22FD1097AC89008BD2DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D8CC24261097C1A1008BD2DD /* NSObject+TLKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TLKVO.h"; sourceTree = "<group>"; };
+		D8CC24271097C1A1008BD2DD /* NSObject+TLKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TLKVO.m"; sourceTree = "<group>"; };
+		D8D282CE10A64BB100FE264B /* NSColor+TLExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+TLExtensions.h"; sourceTree = "<group>"; };
+		D8D282CF10A64BB100FE264B /* NSColor+TLExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+TLExtensions.m"; sourceTree = "<group>"; };
+		D8DED33210F90995001F42B4 /* InterflowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterflowController.h; sourceTree = "<group>"; };
+		D8DED33310F90995001F42B4 /* InterflowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterflowController.m; sourceTree = "<group>"; };
+		D8E39907111DF9FA006FFB01 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		D8E39934111DFF7A006FFB01 /* Acknowledgments.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Acknowledgments.html; sourceTree = "<group>"; };
+		D8E852641123AC4900E18BE8 /* PhotonStar.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = PhotonStar.icns; sourceTree = "<group>"; };
+		D8EE714110F6E47C002DD48D /* HIDRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDRemote.h; sourceTree = "<group>"; };
+		D8EE714210F6E47C002DD48D /* HIDRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDRemote.m; sourceTree = "<group>"; };
+		D8EE715B10F6E4E6002DD48D /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		D8FBDED610D2FCA50033AB60 /* StageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageController.h; sourceTree = "<group>"; };
+		D8FBDED710D2FCA50033AB60 /* StageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageController.m; sourceTree = "<group>"; };
+		D8FD8853112D059700AA552B /* clank.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = clank.aiff; sourceTree = "<group>"; };
+		D8FD8854112D059700AA552B /* click.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = click.aiff; sourceTree = "<group>"; };
+		D8FD8855112D059700AA552B /* clunk.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = clunk.aiff; sourceTree = "<group>"; };
+		D8FD8856112D059700AA552B /* down.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = down.aiff; sourceTree = "<group>"; };
+		D8FD8857112D059700AA552B /* meh.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = meh.aiff; sourceTree = "<group>"; };
+		D8FD8858112D059700AA552B /* up.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = up.aiff; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				D8CC22FE1097AC89008BD2DD /* QuartzCore.framework in Frameworks */,
+				D8EE715C10F6E4E6002DD48D /* IOKit.framework in Frameworks */,
+				D888F94C111A307400134F72 /* AudioToolbox.framework in Frameworks */,
+				D806CA051120EA6300A3DCBE /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8BA1F3F1108FEF500D26FF1 /* AlbumInfo.h */,
+				D8BA1F401108FEF500D26FF1 /* AlbumInfo.m */,
+				D8CC22B9109772A2008BD2DD /* AppDelegate.h */,
+				D8CC22BA109772A2008BD2DD /* AppDelegate.m */,
+				D8BA1E131108E44100D26FF1 /* RootController.h */,
+				D8BA1E141108E44100D26FF1 /* RootController.m */,
+				D8435A8D10D9BA7300D24CD1 /* AlbumController.h */,
+				D8435A8E10D9BA7300D24CD1 /* AlbumController.m */,
+				D8FBDED610D2FCA50033AB60 /* StageController.h */,
+				D8FBDED710D2FCA50033AB60 /* StageController.m */,
+				D86090E910A6031400EB15FB /* FlowController.h */,
+				D86090EA10A6031400EB15FB /* FlowController.m */,
+				D8DED33210F90995001F42B4 /* InterflowController.h */,
+				D8DED33310F90995001F42B4 /* InterflowController.m */,
+				D82540061106BE530011F2DE /* MenuController.h */,
+				D82540071106BE530011F2DE /* MenuController.m */,
+				D83B5F3710CF529400185D1F /* RateSet.h */,
+				D83B5F3810CF529400185D1F /* RateSet.m */,
+				D8CC22C810978928008BD2DD /* HostView.h */,
+				D8CC22C910978928008BD2DD /* HostView.m */,
+				D86090EF10A604DB00EB15FB /* Cinematroller.h */,
+				D86090F010A604DB00EB15FB /* Cinematroller.m */,
+				D87904ED10FD512700CA4E31 /* ItemDisplay.h */,
+				D87904EE10FD512700CA4E31 /* ItemDisplay.m */,
+				D888F976111A336B00134F72 /* TLSFX.h */,
+				D888F977111A336B00134F72 /* TLSFX.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Photon Star.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Flowrate */ = {
+			isa = PBXGroup;
+			children = (
+				D8D2830610A6507200FE264B /* Extensions */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				D8EE714010F6E47C002DD48D /* HIDRemote */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Flowrate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* PhotonStar_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				D86FDA7110E6D97D00F0D578 /* RateItem.applescript */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8FD8852112D059700AA552B /* SFX */,
+				D87872A0112B19F500A7EF99 /* Help */,
+				D8E852641123AC4900E18BE8 /* PhotonStar.icns */,
+				D8E39907111DF9FA006FFB01 /* Credits.rtf */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				1DDD58150DA1D0A300B32029 /* MainMenu.xib */,
+				D806C9C61120E88500A3DCBE /* dsa_pub.pem */,
+				D8E39934111DFF7A006FFB01 /* Acknowledgments.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D806CA041120EA6300A3DCBE /* Sparkle.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				D8CC22FD1097AC89008BD2DD /* QuartzCore.framework */,
+				D8EE715B10F6E4E6002DD48D /* IOKit.framework */,
+				D888F94B111A307400134F72 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8D2830610A6507200FE264B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D8CC24261097C1A1008BD2DD /* NSObject+TLKVO.h */,
+				D8CC24271097C1A1008BD2DD /* NSObject+TLKVO.m */,
+				D89BAAE910A62ECC00A36488 /* NSURL+TLExtensions.h */,
+				D89BAAEA10A62ECC00A36488 /* NSURL+TLExtensions.m */,
+				D8D282CE10A64BB100FE264B /* NSColor+TLExtensions.h */,
+				D8D282CF10A64BB100FE264B /* NSColor+TLExtensions.m */,
+				D817727310CDFE6300A957E7 /* CFType+TLExtensions.h */,
+				D82D11A610F7DE9900D9B6C0 /* CFType+TLExtensions.m */,
+				D81772B610CE025C00A957E7 /* CGContext+TLExtensions.h */,
+				D81772B710CE025C00A957E7 /* CGContext+TLExtensions.c */,
+				D82D116D10F7DA1200D9B6C0 /* CGImage+TLExtensions.h */,
+				D82D116E10F7DA1200D9B6C0 /* CGImage+TLExtensions.c */,
+				D86FD97810E6C0A100F0D578 /* TLInvocationOperation.h */,
+				D86FD97910E6C0A100F0D578 /* TLInvocationOperation.m */,
+				D8096F5D10FBF41D00790F22 /* CALayer+TLExtensions.h */,
+				D8096F5E10FBF41D00790F22 /* CALayer+TLExtensions.m */,
+				D879029310FD36D100CA4E31 /* CAAnimation+TLExtensions.h */,
+				D879029410FD36D100CA4E31 /* CAAnimation+TLExtensions.m */,
+				D8BA21CD110931DB00D26FF1 /* PowerFix.h */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		D8EE714010F6E47C002DD48D /* HIDRemote */ = {
+			isa = PBXGroup;
+			children = (
+				D8EE714110F6E47C002DD48D /* HIDRemote.h */,
+				D8EE714210F6E47C002DD48D /* HIDRemote.m */,
+			);
+			path = HIDRemote;
+			sourceTree = "<group>";
+		};
+		D8FD8852112D059700AA552B /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				D8FD8853112D059700AA552B /* clank.aiff */,
+				D8FD8854112D059700AA552B /* click.aiff */,
+				D8FD8855112D059700AA552B /* clunk.aiff */,
+				D8FD8856112D059700AA552B /* down.aiff */,
+				D8FD8857112D059700AA552B /* meh.aiff */,
+				D8FD8858112D059700AA552B /* up.aiff */,
+			);
+			path = SFX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Photon Star */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Photon Star" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				D806C9D31120EA0B00A3DCBE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photon Star";
+			productInstallPath = "$(HOME)/Applications";
+			productName = Flowrate;
+			productReference = 8D1107320486CEB800E47090 /* Photon Star.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Photon Star" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Flowrate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Photon Star */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E3991E111DFD48006FFB01 /* MainMenu.xib in Resources */,
+				D8E39908111DF9FA006FFB01 /* Credits.rtf in Resources */,
+				D8E39935111DFF7A006FFB01 /* Acknowledgments.html in Resources */,
+				D806C9C71120E88500A3DCBE /* dsa_pub.pem in Resources */,
+				D8E852651123AC4900E18BE8 /* PhotonStar.icns in Resources */,
+				D87872B2112B19F500A7EF99 /* Help in Resources */,
+				D8FD8859112D059700AA552B /* clank.aiff in Resources */,
+				D8FD885A112D059700AA552B /* click.aiff in Resources */,
+				D8FD885B112D059700AA552B /* clunk.aiff in Resources */,
+				D8FD885C112D059700AA552B /* down.aiff in Resources */,
+				D8FD885D112D059700AA552B /* meh.aiff in Resources */,
+				D8FD885E112D059700AA552B /* up.aiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				D8CC22BB109772A2008BD2DD /* AppDelegate.m in Sources */,
+				D8CC22CA10978928008BD2DD /* HostView.m in Sources */,
+				D8CC24281097C1A1008BD2DD /* NSObject+TLKVO.m in Sources */,
+				D86090EB10A6031400EB15FB /* FlowController.m in Sources */,
+				D86090F110A604DB00EB15FB /* Cinematroller.m in Sources */,
+				D89BAAEB10A62ECC00A36488 /* NSURL+TLExtensions.m in Sources */,
+				D8D282D010A64BB100FE264B /* NSColor+TLExtensions.m in Sources */,
+				D81772B810CE025C00A957E7 /* CGContext+TLExtensions.c in Sources */,
+				D83B5F3910CF529400185D1F /* RateSet.m in Sources */,
+				D8FBDED810D2FCA50033AB60 /* StageController.m in Sources */,
+				D8435A8F10D9BA7300D24CD1 /* AlbumController.m in Sources */,
+				D86FD97A10E6C0A100F0D578 /* TLInvocationOperation.m in Sources */,
+				D86FDA7210E6D97D00F0D578 /* RateItem.applescript in Sources */,
+				D8EE714310F6E47C002DD48D /* HIDRemote.m in Sources */,
+				D82D116F10F7DA1200D9B6C0 /* CGImage+TLExtensions.c in Sources */,
+				D82D11A710F7DE9900D9B6C0 /* CFType+TLExtensions.m in Sources */,
+				D8DED33410F90995001F42B4 /* InterflowController.m in Sources */,
+				D8096F5F10FBF41D00790F22 /* CALayer+TLExtensions.m in Sources */,
+				D879029510FD36D100CA4E31 /* CAAnimation+TLExtensions.m in Sources */,
+				D87904EF10FD512700CA4E31 /* ItemDisplay.m in Sources */,
+				D82540081106BE530011F2DE /* MenuController.m in Sources */,
+				D8BA1E151108E44100D26FF1 /* RootController.m in Sources */,
+				D8BA1F411108FEF500D26FF1 /* AlbumInfo.m in Sources */,
+				D888F978111A336B00134F72 /* TLSFX.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PhotonStar_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Photon Star";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PhotonStar_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Photon Star";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = NO;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_PROTOTYPE_CONVERSION = NO;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lcrypto";
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = NO;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_PROTOTYPE_CONVERSION = NO;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OSACOMPILE_EXECUTE_ONLY = YES;
+				OTHER_LDFLAGS = "-lcrypto";
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+				SEPARATE_STRIP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Photon Star" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Photon Star" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,39 @@
+body {
+	font-family: Georgia, serif;
+	max-width: 40em;
+}
+
+h1 {
+	font-family: Futura, sans-serif;
+}
+
+h2 {
+	font-family: Futura, sans-serif;
+}
+
+img {
+	margin: 1em;
+}
+
+.back:before {
+	content: "← ";
+}
+
+a {
+	color: #2437A8;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.online {
+	color: #9B372C;
+}
+
+a.online:after {
+	/* NOTE: this URL will only work from index page */
+	/* Original source: http://www.iconarchive.com/show/hydropro-v2-icons-by-media-design/Network-icon.html */
+	content: " " url(images/www-icon.png)
+}
